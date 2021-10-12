@@ -1,0 +1,47 @@
+* {
+  font-size: 1rem;
+}
+
+main {
+  min-height: 80vh;
+}
+
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+.sidebar {
+  border-left: 1px solid #4444;
+}
+
+.visually-hidden {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  clip: rect(0 0 0 0);
+  width: 2px;
+  height: 2px;
+  margin: -2px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+}
+
+.product-list{
+  max-height: 242px;
+  overflow-y: scroll;
+}
+
+
+.text-link {
+  color: rgb(13, 110, 253);
+}
+
+.center-text-table td, .center-text-table th {
+  text-align: center;
+  vertical-align: middle;
+}
